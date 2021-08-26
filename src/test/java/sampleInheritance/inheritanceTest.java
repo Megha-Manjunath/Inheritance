@@ -16,8 +16,15 @@ public class inheritanceTest {
 		home.display();
 		
 		assertEquals("Agriculture",asset.getType());
+		assertNotEquals(null,asset.getType());
 		assertEquals("Commercial",com.getType());
+		assertNotEquals(null,com.getType());
+
 		assertEquals("Home",home.getType());
+		assertNotEquals(null,home.getType());
+		
+	
+
 
 		
 
